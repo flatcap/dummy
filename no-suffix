@@ -1,0 +1,168 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+ "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<book>
+  <bookinfo>
+    <title>The Mutt E-Mail Client</title>
+    <author>
+      <firstname>Michael</firstname>
+      <surname>Elkins</surname>
+      <email>me@cs.hmc.edu</email>
+    </author>
+    <releaseinfo>version 20170206 (1.7.2)</releaseinfo>
+    <abstract>
+      <para>
+      <quote>All mail clients suck. This one just sucks less.</quote>— me, circa 1995</para>
+    </abstract>
+  </bookinfo>
+  <chapter id="intro">
+    <title>Introduction</title>
+    <para>
+    <emphasis role="bold">Mutt</emphasis>is a small but very powerful text-based MIME mail client. Mutt is highly configurable, and is well suited to the mail power user with advanced features like key bindings, keyboard macros, mail threading, regular expression searches and a powerful pattern matching language for selecting groups of messages.</para>
+    <sect1 id="homepage">
+      <title>Mutt Home Page</title>
+      <para>The official homepage can be found at 
+      <ulink url="http://www.mutt.org/">http://www.mutt.org/</ulink>.</para>
+    </sect1>
+    <sect1 id="muttlists">
+      <title>Mailing Lists</title>
+      <para>To subscribe to one of the following mailing lists, send a message with the word 
+      <emphasis>subscribe</emphasis>in the body to 
+      <emphasis>list-name</emphasis>
+      <literal>-request@mutt.org</literal>.</para>
+      <itemizedlist>
+        <listitem>
+          <para>
+          <email>mutt-announce-request@mutt.org</email>— low traffic list for announcements</para>
+        </listitem>
+        <listitem>
+          <para>
+          <email>mutt-users-request@mutt.org</email>— help, bug reports and feature requests</para>
+        </listitem>
+        <listitem>
+          <para>
+          <email>mutt-dev-request@mutt.org</email>— development mailing list</para>
+        </listitem>
+      </itemizedlist>
+      <para>All messages posted to 
+      <emphasis>mutt-announce</emphasis>are automatically forwarded to 
+      <emphasis>mutt-users</emphasis>, so you do not need to be subscribed to both lists.</para>
+    </sect1>
+    <sect1 id="distribution">
+      <title>Getting Mutt</title>
+      <para>Mutt releases can be downloaded from 
+      <ulink url="ftp://ftp.mutt.org/mutt/">ftp://ftp.mutt.org/mutt/</ulink>. For a list of mirror sites, please refer to 
+      <ulink url="http://www.mutt.org/download.html">http://www.mutt.org/download.html</ulink>.</para>
+      <para>For nightly tarballs and version control access, please refer to the 
+      <ulink url="http://dev.mutt.org/">Mutt development site</ulink>.</para>
+    </sect1>
+    <sect1 id="irc">
+      <title>Mutt Online Resources</title>
+      <variablelist>
+        <varlistentry>
+          <term>Bug Tracking System</term>
+          <listitem>
+            <para>The official Mutt bug tracking system can be found at 
+            <ulink url="http://bugs.mutt.org/">http://bugs.mutt.org/</ulink></para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Wiki</term>
+          <listitem>
+            <para>An (unofficial) wiki can be found at 
+            <ulink url="http://wiki.mutt.org/">http://wiki.mutt.org/</ulink>.</para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>IRC</term>
+          <listitem>
+            <para>For the IRC user community, visit channel 
+            <emphasis>#mutt</emphasis>on 
+            <ulink url="http://freenode.net/">irc.freenode.net</ulink>.</para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>USENET</term>
+          <listitem>
+            <para>For USENET, see the newsgroup 
+            <ulink url="news:comp.mail.mutt">comp.mail.mutt</ulink>.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </sect1>
+    <sect1 id="contrib">
+      <title>Contributing to Mutt</title>
+      <para>There are various ways to contribute to the Mutt project.</para>
+      <para>Especially for new users it may be helpful to meet other new and experienced users to chat about Mutt, talk about problems and share tricks.</para>
+      <para>Since translations of Mutt into other languages are highly appreciated, the Mutt developers always look for skilled translators that help improve and continue to maintain stale translations.</para>
+      <para>For contributing code patches for new features and bug fixes, please refer to the developer pages at 
+      <ulink url="http://dev.mutt.org/">http://dev.mutt.org/</ulink>for more details.</para>
+    </sect1>
+    <sect1 id="typo">
+      <title>Typographical Conventions</title>
+      <para>This section lists typographical conventions followed throughout this manual. See table 
+      <xref linkend="tab-typo" />for typographical conventions for special terms.</para>
+      <table id="tab-typo">
+        <title>Typographical conventions for special terms</title>
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>Item</entry>
+              <entry>Refers to...</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <literal>printf(3)</literal>
+              </entry>
+              <entry>UNIX manual pages, execute 
+              <literal>man 3 printf</literal></entry>
+            </row>
+            <row>
+              <entry>
+                <literal>&lt;PageUp&gt;</literal>
+              </entry>
+              <entry>named keys</entry>
+            </row>
+            <row>
+              <entry>
+                <literal>&lt;create-alias&gt;</literal>
+              </entry>
+              <entry>named Mutt function</entry>
+            </row>
+            <row>
+              <entry>
+                <literal>^G</literal>
+              </entry>
+              <entry>Control+G key combination</entry>
+            </row>
+            <row>
+              <entry>$mail_check</entry>
+              <entry>Mutt configuration option</entry>
+            </row>
+            <row>
+              <entry>
+                <literal>$HOME</literal>
+              </entry>
+              <entry>environment variable</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para>Examples are presented as:</para>
+      <screen>mutt -v</screen>
+      <para>Within command synopsis, curly brackets (
+      <quote>{}</quote>) denote a set of options of which one is mandatory, square brackets (
+      <quote>[]</quote>) denote optional arguments, three dots denote that the argument may be repeated arbitrary times.</para>
+    </sect1>
+    <sect1 id="copyright">
+      <title>Copyright</title>
+      <para>Mutt is Copyright © 1996-2016 Michael R. Elkins 
+      <email>me@mutt.org</email>and others.</para>
+      <para>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</para>
+      <para>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para>
+      <para>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</para>
+    </sect1>
+  </chapter>
+</book>
