@@ -6,6 +6,6 @@
 [![Release](https://img.shields.io/github/release/neomutt/neomutt.svg)](https://github.com/neomutt/neomutt/releases/latest "Latest Release Notes")
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://github.com/neomutt/neomutt/blob/master/COPYRIGHT)
 
-![Code build](https://img.shields.io/travis/neomutt/neomutt.svg?label=code&link=https://github.com/neomutt/neomutt&link=https://travis-ci.org/neomutt/neomutt)
-![Coverity Scan](https://img.shields.io/coverity/scan/8495.svg?link=https://scan.coverity.com/projects/neomutt-neomutt)
-![Website build](https://img.shields.io/travis/neomutt/neomutt.github.io.svg?label=website&link=https://github.com/neomutt/neomutt.github.io&link=https://travis-ci.org/neomutt/neomutt.github.io)
+[![Code build](https://img.shields.io/travis/neomutt/neomutt.svg?label=code)](https://travis-ci.org/neomutt/neomutt)
+[![Coverity Scan](https://img.shields.io/coverity/scan/8495.svg)](https://scan.coverity.com/projects/neomutt-neomutt)
+[![Website build](https://img.shields.io/travis/neomutt/neomutt.github.io.svg?label=website)](https://travis-ci.org/neomutt/neomutt.github.io)
