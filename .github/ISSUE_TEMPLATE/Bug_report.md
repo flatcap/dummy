@@ -4,6 +4,11 @@ about: Create a report to help us improve
 
 ---
 
+<!-- comment 1 -->
+
+<!-- comment 2
+     multiline! -->
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
