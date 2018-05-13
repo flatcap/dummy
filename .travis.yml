@@ -12,5 +12,5 @@ git:
   depth: 3
 
 script:
-  - set
+  - ./test.sh
 
