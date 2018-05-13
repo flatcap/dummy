@@ -1,0 +1,16 @@
+notifications:
+  email: false
+
+sudo: false
+dist: trusty
+
+language: c
+compiler: gcc
+cache: ccache
+
+git:
+  depth: 3
+
+script:
+  - set
+
